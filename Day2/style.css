@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    position: relative;
+}
+.card{
+    position: relative;
+    text-align: center;
+    width: 500px;
+    height: 300px;
+    background-color: rgb(14, 53, 124);
+    opacity: 0.9;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+input{
+    padding: 6px;
+    border-radius: 7px;
+    border: 1px solid gray;
+     z-index: 5;
+}
+.container{
+    position: relative;
+    z-index: 5;
+}
+.btn{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    border: none;
+    padding: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    background-color: #facd39;
+}
+.send{
+    position: absolute;
+    width: 400px;
+    right: 0;
+    top: 0;
+    opacity: 70.5rem;
+    z-index: 1;
+}
+.envelop{
+    /* position: absolute; */
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    background-color: white;
+    border-radius: 50%;
+}
+h2{
+    font-size: 35px;
+    margin: 10px;
+    color: #facd39;
+}
+p{
+    font-size: 18px;
+    margin: 10px;
+}
+.inputName{
+    width: 150px;
+}
+.inputEmail{
+    width: 250px;
+    margin-left: 5px;
+}
+.b{
+    width: 600px;
+    position: absolute;
+    right: 1px;
+    top: 0;
+    opacity: 0.5;
+    z-index: -2;
+}
+.fa-regular{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
