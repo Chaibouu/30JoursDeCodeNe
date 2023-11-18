@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    width: 1024px;
+}
+.carte{
+    position: relative;
+    width: 300px;
+}
+.boite{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    width: 300px;
+    border-radius: 20px;
+}
+.card{
+    position: absolute;
+    width: 300px;
+    background-color: rgba(0, 0, 255, 0.534);
+    border-radius: 20px;
+    padding: 15px;
+    right: -70px;
+    top: 150px;
+    color: white;
+}
+p{
+    margin: 10px;
+}
+strong{
+    position: absolute;
+    right: 10px;
+    bottom: 3px;
+    padding: 5px;
+    text-decoration: underline;
+}
+.lign2{
+    margin-top: 150px;
+}
