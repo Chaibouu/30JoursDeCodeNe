@@ -11,7 +11,9 @@ body{
 }
 main{
     display: flex;
+    justify-content: space-around;
     height: 550px;
+    width: 700px;
     border: 1px solid gray;
     padding: 20px;
     border-radius: 20px;
@@ -48,4 +50,20 @@ input , textarea{
 }
 .boite>p{
     color: rgb(153, 149, 149);    
+}
+.fa-solid{
+    color: gray;
+}
+.container{
+    position: relative;
+}
+.reseau{
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    width: 100%;
+    bottom: 10px;
+    color: #26f726;;
 }
