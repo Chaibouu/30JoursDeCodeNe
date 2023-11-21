@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    height: 550px;
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 22px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.formulaire{
+    margin: 10px;
+    padding: 10px;
+    background-color: #26f726;
+    border-top-left-radius:20px;
+    border-bottom-right-radius: 20px;
+}
+input , textarea{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #26f726;
+    border-bottom: 2px solid gray;
+}
+.btn{
+    background-color: #11b10bf8;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 2cqmax;
+}
+.boite{
+    margin: 50px;
+}
+.boite>p{
+    color: rgb(153, 149, 149);    
+}
