@@ -30,9 +30,7 @@ body{
     padding: 20px;
 }
 .container{
-    width: 800px;
-    background-color: gray;
-
+    width: 600px;
 }
 .fa-check{
     color: white;
@@ -53,15 +51,46 @@ body{
     font-size: 30px;
 }
 .notif{
-    padding: 20px;
+    padding-left: 20px;
     font-size: 25px;
     color: #2222f1;
 }
-.img{
+.img img{
     width: 100%;
-    height: 600px;
-    background-color: greenyellow;
 }
 .pied{
-    background-color: aqua;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: gray;
+}
+.commentaires{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.fa-circle{
+    position: relative;
+    color: #2222f1;
+    font-size: 30px;
+}
+.aime{
+    color: white;
+    position: absolute;
+    left: 7px;
+    top: 6px;
+    font-size: 16px;
+}
+.icone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+}
+hr{
+    margin: 20px;
+    border: 1px solid rgb(223, 221, 221);
+}
+.aimee{
+    color: #2222f1;
 }
