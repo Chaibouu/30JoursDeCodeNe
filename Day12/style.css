@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.container{
+    width: 460px;
+    height: 280px;
+    border: 1px solid blue;
+    padding: 20px;
+    border-radius: 15px;
+}
+.profil{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.profil>img{
+    width: 50px;
+    height: 50px;
+    border-radius:50%;
+    border: 1px solid blue;
+    padding: 1px;
+    margin-right: 10px;
+}
+.entete{
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.corps{
+    padding: 5px;
+}
+.tag{
+    color: rgb(75, 156, 231);
+    padding: 8px 0;
+}
+.date{
+    color: #808080be;
+    font-size: 12px;
+}
+.pieds{
+    padding: 10px;
+    color: gray;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+    border: 1px solid rgba(128, 128, 128, 0.261);
+    border-left: none;
+    border-right: none;
+    margin: 5px;
+}
