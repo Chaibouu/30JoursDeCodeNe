@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+.card{
+    background-color:#193984;
+    height: 300px;
+    width: 210px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.entete{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carreau{
+    width: 50px;
+    height: 50px;
+    background-color:antiquewhite;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.icon{
+    font-size:23px;
+    color: rgb(255, 153, 0);
+}
+.score{
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+.carreauu{
+    background-color:antiquewhite;
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.refaire{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.croix{
+    color: red;
+    font-size:27px;
+}
+.pion{
+    background: rgb(10,153,221);
+background: linear-gradient(129deg, rgba(10,153,221,0.8126213121118012) 46%, rgba(2,78,228,0.912718204488778) 69%);
+}
