@@ -90,3 +90,15 @@ h2{
     padding: 80px;
 
 }
+.six{
+    color:red;
+    font-size:18px;
+    font-weight: 500;
+    text-decoration:line-through;
+    margin-right: 15px;
+}
+.cinq{
+    color: rgb(33, 209, 30);
+    font-size:18px;
+    font-weight: 500;
+}
