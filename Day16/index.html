@@ -5,10 +5,91 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ToDoList</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
-
+        <div class="container">
+            <div class="sidbar">
+                <div class="identif">
+                    <img class="profil" src="profil.jpeg" alt="">
+                    <span class="nom">
+                        <h2>@Chaibouu</h2>
+                        <span class="label">Tu doit Faire!</span>
+                    </span>
+                </div>
+                <hr  class="trait">
+                <h3><i class=" ico fa-regular fa-calendar-minus"></i>Today's Booking</h3>
+                <nav>
+                    <ul>
+                        <li><i class="blue fa-solid fa-play"></i>Work</li>
+                        <li><i class="aqua fa-solid fa-play"></i>Repetitives</li>
+                        <li><i class="green fa-solid fa-play"></i>Personnels</li>
+                    </ul>
+                </nav>
+                <h3><i class="ico fa-solid fa-table-list"></i>Historiques</h3>
+                <h3><i class="ico fa-solid fa-gear"></i>Settings</h3>
+            </div>
+            <div class="contenue">
+                <h1 class="titree">Today's Booking</h1>
+                <div class="bboite">
+                    <i class="icooo gray fa-solid fa-play"></i>
+                    <div class="boite">
+                        <input class="entrer" type="text" placeholder="Ajouter une tâches">
+                        <button class="btn alarm"><i class="fa-regular fa-clock"></i></button>
+                        <button class="btn calendrier"><i class="fa-solid fa-calendar-days"></i></button>
+                    </div>
+                    <div class="plus">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+                <div class="boitee">
+                    <div class="caisse">
+                        <i class="icooo aqua fa-solid fa-play"></i>
+                        <p class="descript">Sport</p>
+                        <p class="temps">6:00 AM</p>
+                        <input class="checked" type="checkbox">
+                    </div>
+                    <button class="btn icoo"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+                <div class="boitee">
+                    <div class="caisse">
+                        <i class="icooo aqua fa-solid fa-play"></i>
+                        <p class="descript">Lecture</p>
+                        <p class="temps">6:40 AM</p>
+                        <input class="checked" type="checkbox">
+                    </div>
+                    <button class="btn icoo"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+                <div class="boitee">
+                    <div class="caisse">
+                        <i class="icooo blue fa-solid fa-play"></i>
+                        <p class="descript">Meeting</p>
+                        <p class="temps">9:30 AM</p>
+                        <input class="checked" type="checkbox">
+                    </div>
+                    <button class="btn icoo"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+                <div class="boitee">
+                    <div class="caisse">
+                        <i class="icooo green fa-solid fa-play"></i>
+                        <p class="descript">Consultation</p>
+                        <p class="temps">10:00 AM</p>
+                        <input class="checked" type="checkbox">
+                    </div>
+                    <button class="btn icoo"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+                <div class="boitee">
+                    <div class="caisse">
+                        <i class="icooo blue fa-solid fa-play"></i>
+                        <p class="descript">Soumettre Projet</p>
+                        <p class="temps">12:30 AM</p>
+                        <input class="checked" type="checkbox">
+                    </div>
+                    <button class="btn icoo"><i class="fa-solid fa-trash-can"></i></button>
+                </div>
+            </div>
+        </div>
     </main>
 </body>
 </html>
