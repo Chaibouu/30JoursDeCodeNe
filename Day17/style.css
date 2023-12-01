@@ -67,3 +67,6 @@ body{
     padding: 20px;
     grid-row: 3;
 }
+.info> i{
+    margin-right: 15px;
+}
