@@ -158,3 +158,53 @@ body{
 .col{
     color: #24c0f0ef;
 }
+@media screen and (max-width:425px) {
+    body{height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(solitude-dans-climat-aride-homme-marchant-dune-sable-generee-par-ia.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 50px;
+    }
+    .entete{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #020a7e;
+        border-radius: 10px;
+        padding: 20px;
+        color: white;
+    }
+    .container{
+        margin-top: 190px;
+        width: 300px;
+        background-color: rgba(255, 255, 255, 0.336);
+        padding: 5px;
+        border-radius: 20px;
+    }
+    .boite{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(100px,auto);
+        gap: 10px;
+    }
+    .profil{
+        height: 100px;
+        width: 100px;
+        border: 5px solid #3ac0e9ef;
+        border-radius: 50%;
+        margin-right: 20px;
+        padding: 1px;
+    }
+    .col{
+        font-size: 23px;
+    }
+    .statut{
+        text-align: center;
+    }
+}
