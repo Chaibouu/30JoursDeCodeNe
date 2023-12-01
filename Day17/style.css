@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 600px;
+}
+.profil{
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    margin-right: 20px;
+    padding: 1px;
+}
+.statut{
+    margin: 5px;
+}
+.bgentete{
+    background-color: #a4a5a486;
+    padding-left: 5px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.entete{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #020a7e;
+    border-radius: 10px;
+    padding: 20px;
+}
+.boite{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(100px,auto);
+    gap: 10px;
+}
+.info{
+    background-color: #020a7e;
+    color: white;
+    padding: 20px;
+    grid-row: 1;
+}
+.formation{
+    background-color: #020a7e;
+    color: white;
+    padding: 20px;
+    grid-row: 1/3;
+}
+.skill{
+    background-color: #020a7e;
+    color: white;
+    padding: 20px;
+    grid-row: 2/4;
+}
+.hobbies{
+    background-color: #020a7e;
+    color: white;
+    padding: 20px;
+    grid-row: 3;
+}
