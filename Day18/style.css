@@ -9,10 +9,29 @@ body{
     justify-content: center;
     align-items: center;
 }
+.container{
+    display: flex;
+    position: relative;
+}
+.temps{
+    position: absolute;
+    padding: 15px;
+    color: white;
+   left: -78px;
+}
+.t{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    height: 30px;
+    background-color: rgb(72, 235, 8);
+    margin-bottom: 10px;
+}
 table{
     width: 600px;
     padding: 10px;
-  /*   background-color: rgba(13, 2, 46, 0.726); */
+    background-color: rgba(13, 2, 46, 0.726);
     border-radius: 15px;
 }
 td{
@@ -31,8 +50,9 @@ thead>tr>td{
     border-bottom-right-radius: 0px;
     background-color: red;
 }
-.vide{
-    background-color: transparent;
+.fa-play{
+    font-size: 34px;
+
 }
 .rouge{
     background-color: rgb(230, 56, 56);
@@ -55,7 +75,25 @@ thead>tr>td{
 .maron{
     background-color: rgb(133, 124, 75);
 }
-.icon{
-    color: black;
-    transform: rotate(deg90);
+.time{
+    margin-right: 80px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border:15px solid;
+    border-color: transparent transparent transparent white;
+}
+.vide{
+    visibility: hidden;
+}
+.recre{
+    border-radius: 7px;
+    height: 38px;
+    position: absolute;
+    right: -5px;
+    top: 212px;
+    width:90px;
+    display: flex;
+    padding: 10px;
 }
