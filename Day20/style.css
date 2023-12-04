@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgba(3, 34, 59, 0.884);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+body{
+    height: 100vh;
+    background-image: url(silhoutte.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    font-size: 30px;
+    position: relative;
+    margin-left: 30px;
+    color: rgb(189, 211, 202);
+}
+.c{
+    position: absolute;
+    font-size: 70px;
+    font-weight: 600;
+    color: #22cf2b;
+    top: -25px;
+    left: -20px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 500px;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.ferme{
+    font-size: 25px;
+    margin-right: 30px;
+    display: none;
+}
+.btn{
+    padding: 5px;
+    border: 1px solid #22cf2b;;
+    border-radius: 20px;
+    width: 75px;
+    color: #22cf2b;
+    background-color: transparent;
+}
+.btn:hover{
+    color: white;
+    background-color: #22cf2b;
+    box-shadow: 2px 1px 10px 1px #22cf2b;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #47df4f;
+    text-shadow: 5px 5px 20px #22cf2b;
+}
+@media screen and (max-width:768px) {
+    ul{
+        flex-direction: column;
+        width: 100%;
+    }
+    ul li{
+        margin: 20px;
+        font-size: 30px;
+    }
+    body{
+        position: relative;
+    }
+    nav{
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #22cf2b;
+    }
+    .btn{
+        padding: 10px;
+        border: 1px solid #f2f5f2;;
+        border-radius: 20px;
+        width: 115px;
+        color: #eff3f0;
+        background-color: transparent;
+        font-size: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .ferme{
+        display: block;
+        color: white;
+    }
+    #menu{
+        display: none
+    }
+    #menu:target{
+        display: block
+    }
+}
