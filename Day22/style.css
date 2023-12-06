@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 15px;
+    width: 600px;
+}
+.boit{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.b{
+    background-color: #0000005b;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+.param{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.paramm{
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.temp{
+    text-align: center;
+}
+.act{
+    width: 100%;
+    text-align: end;
+}

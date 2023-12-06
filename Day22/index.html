@@ -3,12 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Météo</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <script type="module" src="./index.js"></script>
+
 </head>
 <body>
     <main>
-
+        <div class="container">
+            <div class="navbar">
+                <input type="search" placeholder="Ville...">
+                <button>search</button>
+            </div>
+            <div class="boite">
+                <div class="boit">
+                    <div class="temp b">
+                        <div class="actu">icon </div>
+                        <p>Niamey</p>
+                        <h1>35°C</h1>
+                        <h3>Ensoleillé</h3>
+                    </div>
+                    <div class="param b">
+                        <div>
+                            <p>Felt temp</p>
+                            <p>Humidity</p>
+                            <p>Wind</p>
+                            <p>Visibility</p>
+                            <p>Max Temp</p>
+                            <p>Min temp</p>
+                        </div>
+                        <div class="paramm">
+                            <p>38.19°C</p>
+                            <p>45%</p>
+                            <p>19.89 Km/h</p>
+                            <p>2.9 Km</p>
+                            <p>36°C</p>
+                            <p>33°C</p>
+                        </div>
+                    </div>
+                    <div class="map b">
+                        <div id="map"></div>
+                    </div>
+                </div>
+                <div class="caisses">
+                    <div class="caisse"></div>
+                    <div class="caisse"></div>
+                    <div class="caisse"></div>
+                    <div class="caisse"></div>
+                    <div class="caisse"></div>
+                    <div class="caisse"></div>
+                    <div class="caisse"></div>
+                </div>
+            </div>
+        </div>
     </main>
+
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
 </body>
 </html>
