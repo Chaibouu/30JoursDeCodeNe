@@ -13,7 +13,7 @@ body{
     border: 1px solid gray;
     padding: 10px;
     border-radius: 15px;
-    width: 600px;
+    width: 800px;
 }
 .boit{
     display: flex;
@@ -25,6 +25,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     width: 30%;
+    height: 160px;
 }
 .param{
     display: flex;
@@ -43,4 +44,10 @@ body{
 .act{
     width: 100%;
     text-align: end;
+}
+.map{
+    background-image: url(map.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+   
 }
