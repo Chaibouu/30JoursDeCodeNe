@@ -77,28 +77,52 @@ strong{
     font-size:100px;
 }
 .portrait{
-    height: 1020px;
+    height: 960px;
+}
+.rreseau{
+    display: flex;
+    align-items:center;
+    justify-content:center;
 }
 .reseau{
     margin-top: 50px;
-    background-color: rgb(55, 0, 255);
     display: flex;
     align-items:center;
     justify-content:space-around;
+    width: 60%;
 }
 .buttonn{
-    margin-top: 50px;
-    background-color: red;
+    margin-top: 80px;
     display: flex;
     align-items:center;
     justify-content:space-around;
 }
 .buttonn button{
     width: 40%;
-    height: 50px;
+    height: 60px;
     border-radius: 20px;
     font-size: 25px;
     font-weight: 600;
+}
+.iconReseau{
+    font-size:70px;
+    color: #22cf2b;
+}
+.contact{
+    background-color:#22cf2b;
+    border: 1px solid #22cf2b;
+    color: white;
+    cursor: pointer;
+}
+.download{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.download:hover{
+    background-color:#22cf2b;
+    border: 1px solid #22cf2b;
+    color: white;
 }
 /* --------------------------------------------- */
 @media screen and (max-width:768px) {
