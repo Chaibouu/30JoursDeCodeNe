@@ -69,9 +69,33 @@ a:hover{
     display: flex;
     justify-content:center;
     align-items:center;
+    flex-direction: column;
     padding-top: 20px;
+    margin-top: 50px;
 }
-
+.mov{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.card{
+    width: 420px;
+    height: 400px;
+    margin: 10px;
+}
+.card img{
+    width: 100%;
+}
+.bestMovies{
+    font-size: 55px;
+}
+.trait{
+    width: 500px;
+    background-color: #e1aa12;
+    height: 3px;
+    border-radius:50%;
+    margin-bottom: 80px;
+}
 /* ------------------------------------------- */
 @media screen and (max-width:1024px) {
     ul{
@@ -79,5 +103,13 @@ a:hover{
     }
     .descrip{
         font-size: 25px;
+    }
+    .card{
+        width: 220px;
+        height: 400px;
+        margin: 10px;
+    }
+    .trait{
+        margin-bottom: 50px;
     }
 }
