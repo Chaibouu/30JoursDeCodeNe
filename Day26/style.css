@@ -72,6 +72,7 @@ a:hover{
     flex-direction: column;
     padding-top: 20px;
     margin-top: 50px;
+    padding-bottom: 20px;
 }
 .mov{
     display: flex;
@@ -80,8 +81,9 @@ a:hover{
 }
 .card{
     width: 420px;
-    height: 400px;
+    height: 640px;
     margin: 10px;
+    background-color: rgba(0, 0, 0, 0.154);
 }
 .card img{
     width: 100%;
@@ -97,6 +99,27 @@ a:hover{
     border-radius:50%;
     margin-bottom: 80px;
 }
+.titre{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 5px;
+    font-size: 25px;
+}
+.btnn{
+    
+}
+.btnn{
+    background-color:transparent;
+    color: #e1aa12;
+    border:1px solid #e1aa12;
+    padding: 3px;
+    border-radius: 6px;
+}
+.etoile{
+    font-size:15px;
+    color: #e1aa12;
+}
 /* ------------------------------------------- */
 @media screen and (max-width:1024px) {
     ul{
@@ -107,7 +130,7 @@ a:hover{
     }
     .card{
         width: 220px;
-        height: 400px;
+        height: 420px;
         margin: 10px;
     }
     .card img{
@@ -116,5 +139,12 @@ a:hover{
     }
     .trait{
         margin-bottom: 50px;
+    }
+    .titre{
+        font-size: 18px;
+    }
+    .etoile{
+        font-size:12px;
+        color: #e1aa12;
     }
 }
