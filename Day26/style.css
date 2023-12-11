@@ -65,8 +65,11 @@ a:hover{
     padding-left: 80px;
     color: white;
 }
-.movies{
-    
+#movies{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 20px;
 }
 
 /* ------------------------------------------- */
