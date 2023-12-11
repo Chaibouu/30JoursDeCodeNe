@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(Design\ sans\ titre\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+/*     background-color: rgba(0, 0, 0, 0.514); */
+    height: 60px;
+
+}
+.logo{
+    font-size: 30px;
+    color: #e1aa12;
+}
+.active,
+.fa-magnifying-glass,
+strong{
+    color: #e1aa12;
+}
+
+.navLink{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-left: 50px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #e1aa12;
+}
+.btn{
+    color: white;
+    padding: 7px;
+    background-color: transparent;
+    border: 1px solid #e1aa12;
+    border-radius: 20px;
+    width: 100px;
+    margin-left: 30px
+}
+.descrip{
+    font-size: 50px;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    color: white;
+}
+
+/* ------------------------------------------- */
+@media screen and (max-width:1024px) {
+    ul{
+        width: 70%;
+    }
+    .descrip{
+        font-size: 25px;
+    }
+}
