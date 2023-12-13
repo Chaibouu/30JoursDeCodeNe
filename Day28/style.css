@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background-image: url(Design\ sans\ titre\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    background-color: transparent;
+    padding:10px;
+    padding-top: 30px;
+    height: 70px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    width: 40%;
+} 
+
+.btn{
+    padding: 10px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: #2A67B7;
+    border:none;
+    color: white;
+    font-size: 15px;
+}
+.D{
+    width: 50px;
+    height: 50px;
+    background-color: #f3f1f15e;
+    border-radius: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #3c3c3c74;
+}
+.descrip{
+    font-size:45px;
+    color: white;
+    padding-top:15rem;
+    margin-left: 60px;
+}
+
+h3{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.search{
+    background-color: white;
+    height: 60px;
+    width: 500px;
+    margin-left: 10px;
+    display: flex;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 30px  #2A67B7;
+}
+input{
+    height: 59px;
+    padding: 18px;
+    width: 70%;
+    font-size: 25px;
+    border: none;
+    outline: none;
+}
+.btnn{
+    height: 60px;
+    width: 100px;
+    border: none;
+    font-size: 20px;
+    background-color: #2A67B7;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.fa-magnifying-glass{
+    font-size: 30px;
+    color: black;
+    margin: 0 10px;
+}
