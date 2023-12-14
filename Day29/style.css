@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad&family=League+Spartan:wght@700&family=Pirata+One&family=Poppins:wght@300;400&display=swap');
+
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "poppins";
 }
 .container{
     display: flex;
@@ -39,7 +44,7 @@ img{
 }
 .boite span:first-child {
     border-right: 1px solid rgb(201, 200, 200);
-    padding: 5px;
+    padding: 6px;
     background-color: rgb(216, 215, 215);
     color: #7e27cee4;
 }
@@ -116,10 +121,70 @@ img{
     padding: 3px;
     position: absolute;
     bottom: 2px;
-    right: 2px;
+    right: 30px;
+}
+.laurelll{
+    width: 40px;
+    background-color: #793eafef;
+    color: white;
+    border-radius:50%;
+    padding: 3px;
+    position: absolute;
+    bottom: 2px;
+    right: 15px;
 }
 .cais{
     position: relative;
     margin-top: 25px;
     margin-bottom: 10px;
+}
+.classement{
+    color: #793eafef;
+    margin-top: 20px;
+    font-size: 30px;
+}
+h4{
+    color: #793eafef;
+    font-size: 25px;
+}
+.descrip{
+    margin-top: 50px;
+}
+.iimg{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.photoetrang{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rang{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 1px solid rgba(237, 235, 235, 0.295);
+    padding: 10px;
+    border-radius: 13px;
+    box-shadow: 0 2px 5px rgb(229, 229, 229);
+    margin-bottom: 10px;
+}
+.rangg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: none;
+    padding: 0px;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 0px;
+    color: rgba(160, 162, 162, 0.647);
+}
+.hidden{
+    visibility: hidden;
+}
+.cc{
+    color: #793eafef;
 }
