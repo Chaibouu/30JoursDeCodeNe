@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.entete{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+.contLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 100px;
+}
+.decal{
+    margin-left: 90px;
+    color: #b3b3b3;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.boite{
+    border: 1px solid rgb(201, 200, 200);
+    padding: 5px;
+    padding-left: 0px;
+    box-shadow: 0 0 10px rgb(176, 176, 176);
+    border-radius: 5px;
+    color: #c7d5dbf6;
+}
+.boite span:first-child {
+    border-right: 1px solid rgb(201, 200, 200);
+    padding: 5px;
+    background-color: rgb(216, 215, 215);
+    color: #7e27cee4;
+}
+.top{
+    color: #b3b3b3;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+}
+.contInfo{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid rgba(237, 235, 235, 0.295);
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgb(229, 229, 229);
+}
+.contIcon{
+    width: 50px;
+    height: 50px;
+    background-color:rgb(238, 237, 237);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #793eafef;
+    font-size: 25px;
+    margin-right: 25px;
+}
+.titreInfo{
+    color: #b3b3b3;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.contLaureat{
+    width: 75%;
+}
+.bboite{
+    margin-left: 20px;
+    font-size: 18px;
+}
+.profil{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contLauret{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.pprofil{
+    width: 110px;
+    height: 110px;
+    border-radius:50%;
+    padding: 1px;
+    border: 2px solid rgb(232, 232, 232);
+}
+.laurell{
+    width: 40px;
+    background-color: #793eafef;
+    color: white;
+    border-radius:50%;
+    padding: 3px;
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+}
+.cais{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
