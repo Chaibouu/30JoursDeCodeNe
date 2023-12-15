@@ -1,0 +1,265 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    position: relative;
+}
+.designn{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 700px;
+    z-index: -10;
+}
+.design{
+    position: absolute;
+    bottom: 10px;
+    width: 500px;
+    z-index: -10;
+}
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+}
+.navLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+ul li{
+    margin-right: 30px;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #444444;
+}
+a:focus{
+    color: #5252f5;
+}
+a:hover{
+    color: #5252f5;
+}
+.plus:focus .fa-angle-down{
+    color: #5252f5;
+}
+.plus:hover .fa-angle-down{
+    color: #5252f5;
+}
+.mode{
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: #444444;
+}
+.fa-angle-down{
+    color: #444444;
+    padding-left: 10px;
+}
+.burger{
+    display: none;
+}
+
+.corps{
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.corps h1{ 
+    font-size: 50px;
+}
+.corps p{ 
+    font-size: 30px;
+    text-align: center;
+    margin: 30px;
+    color: #444444a5;
+    width: 1020px;
+}
+.corps .apropos{ 
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 15px;
+    background-color: #5252f5;
+    border:none;
+    color: white;
+}
+main{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+  
+}
+#domaine{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.domainn{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    margin: 20px;
+}
+.caisseIcon{
+    height: 60px;
+    width: 60px;
+    background-color: #c3c3f649;
+    border-radius: 5px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom: 40px;
+}
+iconify-icon{
+    color: #5252f5;
+    font-size: 40px;
+}
+h3{
+    font-size:25px;
+    margin-bottom: 30px;
+}
+.card p{
+    font-size:20px;
+    color: #444444a5;
+}
+.titreDomaine{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+@media screen and (max-width:2560px) {
+
+    .card{
+        width: 30%;
+        margin: 20px;
+    }
+    #domaine{
+        width: 60%;
+    }
+}
+@media screen and (max-width:1440px) {
+    .card{
+        width: 30%;
+        margin: 20px;
+    }
+    #domaine{
+        width: 95%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .logo img{
+        width: 230px;
+    }
+    .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul{
+        display: none;
+    }
+    .burger{
+        display: inline;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .corps p{ 
+        font-size: 23px;
+        width: 88%;
+    }
+    .corps h1{ 
+        text-align: center;
+    }
+    .card{
+        width: 28%;
+        margin: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+    .logo img{
+        width: 230px;
+    }
+    .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul{
+        display: none;
+    }
+    .burger{
+        display: inline;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .corps p{ 
+        font-size: 23px;
+        width: 88%;
+    }
+    .corps h1{ 
+        text-align: center;
+    }
+    .card{
+        width: 43%;
+        margin: 20px;
+    }
+    .designn{
+        width: 500px;
+    }
+    .design{
+        width: 400px;
+    }
+}
+@media screen and (max-width:425px) {
+    .card{
+        width: 95%;
+        margin: 20px;
+    }
+    .designn{
+        width: 400px;
+    }
+    .design{
+        width: 300px;
+    }
+}
+@media screen and (max-width:375px) {
+    .logo img{
+        width: 80%;
+    }
+    .burger,
+    .mode{
+        margin-left: 4px;
+        margin-right: 10px;
+        font-size: 20px;
+    }
+    .bt{
+        display: flex;
+    }
+    .corps p{ 
+        font-size: 23px;
+        width: 95%;
+    }
+    .corps h1{ 
+        font-size: 35px;
+        text-align: center;
+    }
+}
